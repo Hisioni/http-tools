@@ -1,0 +1,26 @@
+{
+  "name": "@cose/http-tools",
+  "version": "0.0.2",
+  "description": "It's encapsulation based on Axios",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "node ./dist/index.js",
+    "build": "tsc",
+    "publish": "yarn publish --access public",
+    "unpublish": "npm unpublish @cose/http-tools@0.0.2 --force"
+  },
+  "keywords": [
+    "cose",
+    "http",
+    "axios"
+  ],
+  "author": "Hision",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
